@@ -1,7 +1,7 @@
 import './App.css';
 
-function App() {
-  return <div className="App bg-gray-100 p-4">John Nguyen</div>;
-}
+const App = () => {
+  return <div className="App bg-orange-600 p-4 text-4xl">John Nguyen</div>;
+};
 
 export default App;

@@ -1,7 +1,13 @@
+import { Suspense } from 'react';
+import { useRoutes } from 'react-router-dom';
 import './App.css';
+import { routeObjects } from './App.data';
+import Splash from './components/splash/Splash';
 
 const App = () => {
-  return <div className="App bg-orange-600 p-4 text-4xl">John Nguyen</div>;
+  const routes = useRoutes(routeObjects);
+
+  return <Suspense fallback={<Splash canProfileClick={false} />}>{routes}</Suspense>;
 };
 
 export default App;

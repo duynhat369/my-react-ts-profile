@@ -11,6 +11,7 @@ const Splash = ({ canProfileClick }: SplashProps) => {
     if (!canProfileClick) return;
     navigate('/profile');
   };
+
   return (
     <div className="max-h-[100vh] min-h-[100vh] h-[100vh] flex items-center justify-center">
       <div

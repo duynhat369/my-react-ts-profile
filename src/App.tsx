@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import { useRoutes } from 'react-router-dom';
 import './App.css';
 import { routeObjects } from './App.data';
-import Splash from './components/splash/Splash';
+import Splash from './components/splash/splash';
 
 const App = () => {
   const routes = useRoutes(routeObjects);

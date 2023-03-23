@@ -1,5 +1,5 @@
 import { RouteObject } from 'react-router-dom';
-import Splash from './components/splash/splash';
+import Splash from './components/splash';
 import Profile from './pages/profile/profile';
 
 export const routeObjects: RouteObject[] = [

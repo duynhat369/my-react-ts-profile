@@ -20,9 +20,9 @@ const Splash = ({ canProfileClick }: SplashProps) => {
         }`}
         onClick={handleProfileClick}
       >
-        <p data-replace="Explore ►" className="splash-title text-[black] text-4xl">
+        <div data-replace="Explore ►" className="splash-title text-[black] text-4xl text-center">
           <span>John Nguyen</span>
-        </p>
+        </div>
       </div>
     </div>
   );

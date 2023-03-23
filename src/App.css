@@ -34,7 +34,7 @@
   content: attr(data-replace);
   height: 100%;
   top: 0;
-  left: 8px;
+  /* left: 8px; */
   transform-origin: 100% 50%;
   transform: translate3d(200%, 0, 0);
   transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
